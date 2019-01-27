@@ -1,25 +1,51 @@
-var product1 = {
-  price: 300,
-  color: 'red',
-  size: 'S'
-};
-var product2 = {
+// var product1 = {
+//   price: 300,
+//   color: 'red',
+//   size: 'S'
+// };
+// var product2 = {
+//     price: 500,
+//     color: 'blue',
+//     size: 'S'
+// };
+// var product3 = {
+//     price: 450,
+//     color: 'yellow',
+//     size: 'M'
+// };
+// var product4 = {
+//     price: 700,
+//     color: 'yellow',
+//     size: 'XS'
+// };
+// var prices = [product1.price, product2.price, product3.price, product4.price];
+
+
+var prices = [
+
+ product1 = {
+    price: 300,
+    color: 'red',
+    size: 'S'
+},
+ product2 = {
     price: 500,
     color: 'blue',
     size: 'S'
-};
-var product3 = {
+},
+ product3 = {
     price: 450,
     color: 'yellow',
     size: 'M'
-};
-var product4 = {
+},
+ product4 = {
     price: 700,
     color: 'yellow',
     size: 'XS'
-};
+}
+]
 
-var prices = [product1.price, product2.price, product3.price, product4.price];
+
 
 function countBasketPrice(){
     var summm = 0;
