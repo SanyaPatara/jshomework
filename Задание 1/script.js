@@ -1,7 +1,7 @@
 
 var newNum = +prompt('Input your number from 0 to 999');
 
-while (newNum > 999){
+while (newNum > 999, newNum < 0){
     var newNum = +prompt('Input another number');
 
 }
