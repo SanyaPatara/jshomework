@@ -1,4 +1,4 @@
-// Если добавляю еще одно условие в while, то ничего не рабоет
+// Если добавляю еще одно условие в while(newNum = NaN), то ничего не рабоет
 var newNum = +prompt('Input your number from 0 to 999');
 
 while (newNum > 999, newNum < 0){
