@@ -7,6 +7,7 @@ var product2 = {
     price: 500,
     color: 'blue',
     size: 'S'
+    
 };
 var product3 = {
     price: 450,
