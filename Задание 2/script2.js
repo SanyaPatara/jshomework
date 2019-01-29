@@ -1,33 +1,32 @@
-// Не знаю как обратиться к параметру прайс в объекте который лежим в массиве, чтобы сплюсовать все прайсы
-
-var prices = [
-product1 = {
+var product1 = {
   price: 300,
   color: 'red',
   size: 'S'
-},
-product2 = {
+};
+var product2 = {
     price: 500,
     color: 'blue',
     size: 'S'
-},
-product3 = {
+    
+};
+var product3 = {
     price: 450,
     color: 'yellow',
     size: 'M'
-},
-product4 = {
+};
+var product4 = {
     price: 700,
     color: 'yellow',
     size: 'XS'
-},
-];
+};
+
+var prices = [product1.price, product2.price, product3.price, product4.price];
 
 function countBasketPrice(){
     var summm = 0;
 
     for (i = 0; i < prices.length; i++){
-        summm += prices[i['price']];
+        summm += prices[i].price;
     }
     return summm;
 }
