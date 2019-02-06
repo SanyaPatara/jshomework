@@ -1,0 +1,66 @@
+body {
+  background-color: #ffffff; }
+
+.container {
+  width: 787.5px;
+  height: 787.5px;
+  margin: 0 auto; }
+
+.squaretable {
+  width: 700px;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: black solid 2px; }
+
+.square {
+  outline: black solid 1px;
+  width: 12.5%;
+  height: 12.5%; }
+
+.squaretable div:nth-child(-n+8):nth-child(even) {
+  background-color: #0f0328; }
+.squaretable div:nth-child(n+9):nth-child(-n+16):nth-child(odd) {
+  background-color: #0f0328; }
+.squaretable div:nth-child(n+17):nth-child(-n+24):nth-child(even) {
+  background-color: #0f0328; }
+.squaretable div:nth-child(n+25):nth-child(-n+32):nth-child(odd) {
+  background-color: #0f0328; }
+.squaretable div:nth-child(n+33):nth-child(-n+40):nth-child(even) {
+  background-color: #0f0328; }
+.squaretable div:nth-child(n+41):nth-child(-n+48):nth-child(odd) {
+  background-color: #0f0328; }
+.squaretable div:nth-child(n+49):nth-child(-n+56):nth-child(even) {
+  background-color: #0f0328; }
+.squaretable div:nth-child(n+57):nth-child(-n+63):nth-child(odd) {
+  background-color: #0f0328; }
+
+#main {
+  display: flex;
+  margin-top: 50px; }
+
+.chesstable {
+  display: flex;
+  margin-top: 50px; }
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+  .numbers div {
+    width: 55px;
+    height: 87.5px;
+    font-size: 78px;
+    font-weight: 300; }
+
+.liters {
+  display: flex;
+  justify-content: space-around; }
+  .liters div {
+    font-weight: 300;
+    height: 87.5px;
+    font-size: 78px; }
+
+/*# sourceMappingURL=style.css.map */
